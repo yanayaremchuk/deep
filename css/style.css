@@ -47,9 +47,12 @@ body{
     padding-left: 1%;
 }
 .deep-header__social-networks {
+
     flex: 0 1 10%;
     background-color:#6257FE ;
     display: flex;
+    padding-top: 1%;
+    padding-left: 1%;
 }
 .deep-header__social-networks a {
     padding: 5% 7%;
@@ -58,22 +61,9 @@ body{
     width: 21px;
     height: 21px;
 }
-@media (max-width: 1199.98px){
-}
-@media (max-width: 990.98px) {
-}
-@media (max-width: 767.98px) {  
-}
-@media (max-width: 479.98px) {    
-}
-@media (max-width: 320px) {    
-}
-
 .main {
-    /*margin-left: 5%;*/
     margin-top: -100px;
-
-z-index: 10;
+    z-index: 10;
 }
 .main__container {
 }
@@ -171,10 +161,6 @@ z-index: 10;
     width: 100%;
     aspect-ratio: 1 / 0.7;
 }
-@media (max-width: 479.98px) {    
-}
-@media (max-width: 320px) {    
-}
 .abode-agency {
     display: flex;
     max-height: 900px;
@@ -209,10 +195,6 @@ padding-bottom: 7%;
     height: 100%;
     /*aspect-ratio: 1.2 / 1;*/
 }
-@media (max-width: 1199.98px){
-}
-@media (max-width: 990.98px) {
-}
 @media (max-width: 767.98px) { 
     .abode-agency {
         flex-wrap: wrap;
@@ -230,10 +212,6 @@ padding-bottom: 7%;
     .abode-agency__our-company {
         padding-bottom: 5%;
     }
-}
-@media (max-width: 479.98px) {    
-}
-@media (max-width: 320px) {    
 }
 .our-services {
     display: flex;
@@ -313,10 +291,6 @@ padding-bottom: 7%;
     height: 40%;
   
 }
-@media (max-width: 1199.98px){
-}
-@media (max-width: 990.98px) {
-}
 @media (max-width: 767.98px) { 
     .block {
         display: grid;
@@ -330,8 +304,6 @@ padding-bottom: 7%;
         row-gap: 0%;
         column-gap: 0%;
     }
-}
-@media (max-width: 479.98px) {    
 }
 @media (max-width: 320px) {    
 }
@@ -425,8 +397,7 @@ align-self: center;
     align-self: center;
     gap:5%;
 }
-@media (max-width: 1199.98px){
-}
+
 @media (max-width: 990.98px) {
     .block-team {
         flex-wrap: wrap;
@@ -570,13 +541,11 @@ padding-bottom: 5%;
 .footer__container p::before {
     content: "©";
 }
-@media (max-width: 1199.98px){
-}
+
 @media (max-width: 990.98px) {
     .contact__info {
         padding: 0% 5% 0% 35%;
         margin-top: -50%;
-        
     }
 }
 @media (max-width: 767.98px) { 
@@ -624,10 +593,5 @@ input[type=text]{
     .contact__info img{
         margin-bottom: 2%;
     }
-
-}
-@media (max-width: 479.98px) {    
-}
-@media (max-width: 320px) {    
 }
 
