@@ -47,7 +47,6 @@ body{
     padding-left: 1%;
 }
 .deep-header__social-networks {
-
     flex: 0 1 10%;
     background-color:#6257FE ;
     display: flex;
@@ -61,9 +60,12 @@ body{
     width: 21px;
     height: 21px;
 }
+
 .main {
+    /*margin-left: 5%;*/
     margin-top: -100px;
-    z-index: 10;
+
+z-index: 10;
 }
 .main__container {
 }
@@ -123,43 +125,10 @@ body{
     height: 100%;
     aspect-ratio: 1 / 1;
 }
-@media (max-width: 1199.98px){
-    .deep-header__social-networks  {
-        padding-right: 3%;
-    }
-}
-@media (max-width: 990.98px) {
-}
-@media (max-width: 767.98px) {
-    .digital-agency {
-        flex-wrap: wrap;
-    }
-    .digital-agency__text {
-        flex: 1 0 100%;
-    }
-    .digital-agency__bike {
-        flex: 1 0 100%;
-    }
-   /* .digital-agency__subtitle {
-        padding-bottom: 3%;
-    }
 
-    .digital-agency__title {
-        padding-bottom: 5%;
-    }
-    .digital-agency__class{
-        padding-bottom: 5%;
-    }*/
-    .digital-agency__button {
-        margin-bottom: 5%;
-    }
-    .digital-agency__text {
-        padding: 25% 3% 0% 5%;
-    }
-}
-.digital-agency__bike img {
-    width: 100%;
-    aspect-ratio: 1 / 0.7;
+
+
+@media (max-width: 320px) {    
 }
 .abode-agency {
     display: flex;
@@ -195,24 +164,7 @@ padding-bottom: 7%;
     height: 100%;
     /*aspect-ratio: 1.2 / 1;*/
 }
-@media (max-width: 767.98px) { 
-    .abode-agency {
-        flex-wrap: wrap;
-    }
-    .abode-agency__text {
-        flex: 1 0 100%;
-    }
-    .abode-agency__img {
-        flex: 1 0 100%;
-    }
-    .abode-agency__img img {
-        top:0%;
-        right:0%;
-    }
-    .abode-agency__our-company {
-        padding-bottom: 5%;
-    }
-}
+
 .our-services {
     display: flex;
     max-height: 900px;
@@ -290,22 +242,6 @@ padding-bottom: 7%;
     width: 40%;
     height: 40%;
   
-}
-@media (max-width: 767.98px) { 
-    .block {
-        display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        row-gap: 10%;
-        column-gap: 10%;
-    }
-    .block {
-        
-        row-gap: 0%;
-        column-gap: 0%;
-    }
-}
-@media (max-width: 320px) {    
 }
 .portfolio {
     margin-bottom: 10%;
@@ -398,24 +334,6 @@ align-self: center;
     gap:5%;
 }
 
-@media (max-width: 990.98px) {
-    .block-team {
-        flex-wrap: wrap;
-    }
-    .box-team {
-        flex: 1 0 40%;
-    }
-}
-@media (max-width: 767.98px) {
-    
-}
-@media (max-width: 479.98px) {
-    .box-team {
-        flex: 1 0 100%;
-    }    
-}
-@media (max-width: 320px) {    
-}
 .contact {
     display: flex;
     padding-bottom: 5%;
@@ -542,10 +460,23 @@ padding-bottom: 5%;
     content: "©";
 }
 
+
+@media (max-width: 1199.98px){
+    .deep-header__social-networks  {
+        padding-right: 3%;
+    }
+}
 @media (max-width: 990.98px) {
     .contact__info {
         padding: 0% 5% 0% 35%;
         margin-top: -50%;
+        
+    }
+    .block-team {
+        flex-wrap: wrap;
+    }
+    .box-team {
+        flex: 1 0 40%;
     }
 }
 @media (max-width: 767.98px) { 
@@ -593,5 +524,57 @@ input[type=text]{
     .contact__info img{
         margin-bottom: 2%;
     }
+    .digital-agency {
+        flex-wrap: wrap;
+    }
+    .digital-agency__text {
+        flex: 1 0 100%;
+    }
+    .digital-agency__bike {
+        flex: 1 0 100%;
+    }
+    .digital-agency__button {
+        margin-bottom: 5%;
+    }
+    .digital-agency__text {
+        padding: 25% 3% 0% 5%;
+    }
+    .digital-agency__bike img {
+        width: 100%;
+        aspect-ratio: 1 / 0.7;
+}
+.abode-agency {
+    flex-wrap: wrap;
+}
+.abode-agency__text {
+    flex: 1 0 100%;
+}
+.abode-agency__img {
+    flex: 1 0 100%;
+}
+.abode-agency__img img {
+    top:0%;
+    right:0%;
+}
+.abode-agency__our-company {
+    padding-bottom: 5%;
+}
+.block {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 10%;
+    column-gap: 10%;
+}
+.block {
+    
+    row-gap: 0%;
+    column-gap: 0%;
+}
 }
 
+@media (max-width: 479.98px) {
+    .box-team {
+        flex: 1 0 100%;
+    }    
+}
